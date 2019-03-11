@@ -6,7 +6,10 @@
 - Getting comments/wishes/bug reports from users (Issues)
 - Fixing code and re-publishing
 - Honey I broke my program! aka. How to recover from making a mistake
-- Other uses for Github
-  - Creating group webpages and wikis
-  - Collaborative documents
-  - Course materials (like this one!)
+<details>
+    <summary>Other uses for Github</summary>
+  <ul>Creating group webpages and wikis</ul>
+  <ul>Collaborative documents</ul>
+  <ul>Course materials (like this one!)</ul>
+    <p>Obviously it is 42</p>
+</details>
