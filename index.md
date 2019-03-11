@@ -11,5 +11,4 @@
   <ul>Creating group webpages and wikis</ul>
   <ul>Collaborative documents</ul>
   <ul>Course materials (like this one!)</ul>
-    <p>Obviously it is 42</p>
 </details>
