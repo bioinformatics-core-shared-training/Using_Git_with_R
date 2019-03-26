@@ -10,6 +10,12 @@ Many ways have been evolved involving convoluted naming and numbering schemes th
 <ins> Enter version control </ins>.  
 The above scenarios are commonly encountered in software development and consequently systems have been put into place to allow consistent transition between versions of documents.   
 ***
+**What is this Github?**
+
+***
+**Using git within Rstusio**
+
+***
 * What is git? What is version control?
 * What is Github?
 * Okay, how does using git help me?
