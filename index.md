@@ -7,7 +7,7 @@
 **Version Control - we have a problem**   
 Anyone who has editted anything other than a trivial document (think a thesis here) or a collaborative document (think a paper here) will have experienced the problem of having to revert to an earlier version of the manuscript e.g. upon discovering a mistake.   
 Many ways have been evolved involving convoluted naming and numbering schemes that necessitate human involvement and knowledge to operate e.g. *Finaldoc4.5_final.Doc*.  
-<u>Enter vesrion control</u>.  
+<ins> Enter version control </ins>.  
 The above scenarios are commonly encountered in software development and consequently systems have been put into place to allow consistent transition between versions of documents.   
 ***
 * What is git? What is version control?
