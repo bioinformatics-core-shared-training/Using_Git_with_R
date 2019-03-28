@@ -14,9 +14,7 @@ Git stores the initial files and then the user adds (marks changes to be committ
      
 ***
 **What is this Github of which you speak?**
-Github can be thought of as a web-hosting for git repositories. A place to store (and even to share) code and materials. The granularity of access enables you to decide if a repo is private or public and who can create and edit materials within it.    
-It also enables you to create [web-pages & blogs](http://mikelove.github.io) by writing material in the [Markdown](https://guides.github.com/features/mastering-markdown/) language. It also enables you to create wikis to document your projects and an issue tracker for people to report any problems that need fixing.   
-   
+Github can be thought of as a web-hosting for git repositories. A place tos store (and even to share) code and materials.
 ***
 **Using git within Rstusio**
 Rstudio can support git and subversion version control systems. We will restrict ourselves to the former.
