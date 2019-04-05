@@ -1,4 +1,4 @@
-## Using Github with R
+## Using Github with R (and Rstudio)
 **Aims of this section:**   
 1) To introduce the concept of vesrion control and to name some version control software and to focus on one (git).  
 2) To widen your knowledge about Github ie. what it is and why you should be using it.  
