@@ -29,6 +29,8 @@ By storing the initial and the differences of subsequent commits we can traverse
 Github can be thought of as a web-hosting for git repositories. A place to store (and even to share) code and materials. The granularity of access enables you to decide if a repo is private or public and who can create and edit materials within it. It is an example of _distributed version control_
 ![distributed repositories](https://homes.cs.washington.edu/~mernst/advice/version-control-fig3.png)    
 Github also enables you to create [web-pages & blogs](http://mikelove.github.io) by writing material in the [Markdown](https://guides.github.com/features/mastering-markdown/) language and HyperText Markup Language (HTML). Rstudio also uses a flavour of Markdown (called unexcitedly enough _RMarkdown_) to allow annotation of R scripts. Github can render this (_a .Rmd file_) as a web-page. In fact, this week you have been using materials that are hosted on Github repositories. It also enables you to create [wikis](https://github.com/mfernandes61/RSE_Docker_course/wiki) to document your projects and an issue tracker for people to report any problems that need fixing.    
+It has been used to crowd source science e.g. [the European EHEC E.coli outbreak](https://github.com/ehec-outbreak-crowdsourced/BGI-data-analysis/wiki/Sequence-reads)
+
 ## Practical 1. 
 ![Practical session](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg/95px-Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg.png)   
 Log into github using your GH account.
