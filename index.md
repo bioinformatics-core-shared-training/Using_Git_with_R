@@ -50,6 +50,12 @@ Create ssh-key (in Rstudio?)
 configure Rstudio to use git on an existing or new Project
 add/edit an Rmd file
 use the git i/f within Rstudio to commit changes.   
+***
+
+## Reference materials
+* [Article on installing git support in Rstudio](http://r-bio.github.io/git-installation/).  
+* [Markdown cheatsheet]()
+* [RMarkdown]()
 
 ***
 * What is git? What is version control?

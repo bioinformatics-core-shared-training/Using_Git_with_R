@@ -4,7 +4,6 @@
 2) To widen your knowledge about Github ie. what it is and why you should be using it.  
 3) How we can integrate the use of Git into Rstudio. 
 ***
-
 **Version Control - we have a problem**   
 Anyone who has editted anything other than a trivial document (think a thesis here) or a collaborative document (think a paper here) will have experienced the problem of having to revert to an earlier version of the manuscript e.g. upon discovering a mistake.   
 Many ways have been evolved involving convoluted naming and numbering schemes that necessitate human involvement and knowledge to operate e.g. *Finaldoc4.5_final.Doc* ![Final from PHDComics.com](http://www.phdcomics.com/comics/archive/phd101212s.gif).  
@@ -51,6 +50,12 @@ Create ssh-key (in Rstudio?)
 configure Rstudio to use git on an existing or new Project
 add/edit an Rmd file
 use the git i/f within Rstudio to commit changes.   
+***
+
+## Reference materials
+* [Article on installing git support in Rstudio](http://r-bio.github.io/git-installation/).  
+* [Markdown cheatsheet]()
+* [RMarkdown]()
 
 ***
 * What is git? What is version control?
