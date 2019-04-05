@@ -12,6 +12,8 @@ The above scenarios are commonly encountered in software development and consequ
 Versioning software is similar to the incremental backup system often used on computers. In that example a full backup of the disk is initially made and thereafter periodic (smaller & quicker) backups of the changes are created. The restoration step uses the initial reference backup and 'replays' the incremental ones to re-create the last backed-up state. Commonly used version controls systems are sub-version and git (which is used in developing the Linux Operating System). ![git](git_logo.png)    
 Git stores the initial files and then the user adds (marks changes to be committed), commits (explaining what the purpose of the changes are) and then pushes the commit to the repository. Git stores all of these changes in a  network structure that can have branches off of the main trunk.    
 _Example command-line git commands:_
+> git config --global user.name 'Your Name'
+> git config --global user.email 'your@email.com'
 > git status.   
 > git add [filename(s)].  
 > git commit -m "[meaningful message]".  
@@ -27,7 +29,7 @@ By storing the initial and the differences of subsequent commits we can traverse
 Github can be thought of as a web-hosting for git repositories. A place to store (and even to share) code and materials. The granularity of access enables you to decide if a repo is private or public and who can create and edit materials within it. It is an example of _distributed version control_
 ![distributed repositories](https://homes.cs.washington.edu/~mernst/advice/version-control-fig3.png)    
 Github also enables you to create [web-pages & blogs](http://mikelove.github.io) by writing material in the [Markdown](https://guides.github.com/features/mastering-markdown/) language and HyperText Markup Language (HTML). Rstudio also uses a flavour of Markdown (called unexcitedly enough _RMarkdown_) to allow annotation of R scripts. Github can render this (_a .Rmd file_) as a web-page. In fact, this week you have been using materials that are hosted on Github repositories. It also enables you to create [wikis](https://github.com/mfernandes61/RSE_Docker_course/wiki) to document your projects and an issue tracker for people to report any problems that need fixing.    
-###Practical 1. 
+## Practical 1. 
 ![Practical session](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg/95px-Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg.png)   
 Log into github using your GH account.
 Create a new repository create a simple text file (use Markdown if you know it)
@@ -42,7 +44,7 @@ In Rstudio go to the Tools menu and select Global Options. Then click git and en
 The git support revolves around the R Projects (how Rstudio organises your code).  
 * If you have directories currently set up for version control (i.e that you were using git on already) then you just need to create an Rstudio Project for that subdirectory to trigger version control support. From the Project menu, choose 'New project' and the create a new project from an existing directory, navigate to your versioned directory and click on 'Create project'.   
 * If there is an existing remote repository e.g. on Github you can create an 'New project' from the project menu and opt to create the new project from 'Version control'. You will need to chose git and provide a link e.g. URL to the repository.    
-###Practical 2. 
+## Practical 2. 
 ![Practical session](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg/95px-Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg.png)   
 Create ssh-key (in Rstudio?)
 configure Rstudio to use git on an existing or new Project
