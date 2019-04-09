@@ -60,6 +60,25 @@ use the git i/f within Rstudio to commit changes.
 * [RMarkdown]()
 
 ***
+ss1
+![ss1](Screenshots/SS1_small.png)
+ss2
+![ss2](Screenshots/SS2_small.png)
+ss3
+![ss3](Screenshots/SS3_small.png)
+ss4
+![ss4](Screenshots/SS4_small.png)
+ss5
+![ss5](Screenshots/SS5_small.png)
+ss6
+![ss6](Screenshots/SS6_small.png)
+ss7
+![ss7](Screenshots/SS7_small.png)
+ss8
+![ss8](Screenshots/SS8_small.png)
+ss9
+![ss9](Screenshots/SS9_small.png)
+***
 * What is git? What is version control?
 * What is Github?
 * Okay, how does using git help me?
