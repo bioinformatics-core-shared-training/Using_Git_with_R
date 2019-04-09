@@ -34,7 +34,7 @@ It has been used to crowd source science e.g. [the European EHEC E.coli outbreak
 ## Practical 1. 
 ![Practical session](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg/95px-Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg.png)   
 Log into github using your GH account.
-Create a new repository create a simple text file (use Markdown if you know it) [Go to this page and click on raw the cut and paste](Example.md)
+Create a new repository create a simple text file (use Markdown if you know it) [Go to this page and click on raw the cut and paste](https://github.com/bioinformatics-core-shared-training/Using_Git_with_R/blob/master/Example.md)
 Add person next to you and allow them edit privileges and get them to do same for you. Edit each others files commit the files. See how GH logs and datestamps this activity.
    
 ***
