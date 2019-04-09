@@ -32,10 +32,12 @@ Github also enables you to create [web-pages & blogs](http://mikelove.github.io)
 It has been used to crowd source science e.g. [the European EHEC E.coli outbreak](https://github.com/ehec-outbreak-crowdsourced/BGI-data-analysis/wiki/Sequence-reads)
 
 ## Practical 1. 
-![Practical session](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg/95px-Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg.png)   
-Log into github using your GH account.
-Create a new repository create a simple text file (use Markdown if you know it) [Go to this page and click on raw the cut and paste](https://github.com/bioinformatics-core-shared-training/Using_Git_with_R/blob/master/Example.md)
-Add person next to you and allow them edit privileges and get them to do same for you. Edit each others files commit the files. See how GH logs and datestamps this activity.
+![Practical session](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg/95px-Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg.png) **For steps 1-4 follow your trainer - this will be 'live-coding'.**       
+1. Log into [github](github.com) using your GH account.   
+2. Create a new repository    
+3. Create a simple text file (use Markdown if you know it) [Go to this page, click on Example.md and thenclick on raw and then cut and paste](https://github.com/bioinformatics-core-shared-training/Using_Git_with_R).  
+4. Add the people on your desk and allow them edit privileges and get them to do same for you.    
+5. Edit each others files commit the files. See how GH logs and datestamps this activity.   
    
 ***
 **Using git within Rstudio**
@@ -47,11 +49,25 @@ The git support revolves around the R Projects (how Rstudio organises your code)
 * If you have directories currently set up for version control (i.e that you were using git on already) then you just need to create an Rstudio Project for that subdirectory to trigger version control support. From the Project menu, choose 'New project' and the create a new project from an existing directory, navigate to your versioned directory and click on 'Create project'.   
 * If there is an existing remote repository e.g. on Github you can create an 'New project' from the project menu and opt to create the new project from 'Version control'. You will need to chose git and provide a link e.g. URL to the repository.    
 ## Practical 2. 
-![Practical session](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg/95px-Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg.png)   
-Create ssh-key (in Rstudio?)
-configure Rstudio to use git on an existing or new Project
-add/edit an Rmd file
-use the git i/f within Rstudio to commit changes.   
+![Practical session](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg/95px-Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg.png) **Follow trainer who will live-code an example**.      
+1. Create ssh-key (in Rstudio?).  
+![ss9](Screenshots/SS9_small.png)
+2. Configure Rstudio to use git on an existing or new Project
+![ss6](Screenshots/SS6_small.png)
+
+![ss7](Screenshots/SS7_small.png)
+
+![ss8](Screenshots/SS8_small.png)
+3. add/edit an Rmd file e.g. Example.Rmd from this courses repository.
+![ss3](Screenshots/SS3_small.png)
+
+![ss4](Screenshots/SS4_small.png)
+4. Use the git interface within Rstudio to commit changes.  
+![ss1](Screenshots/SS1_small.png)
+
+![ss2](Screenshots/SS2_small.png)
+
+![ss5](Screenshots/SS5_small.png) 
 ***
 
 ## Reference materials
@@ -60,24 +76,6 @@ use the git i/f within Rstudio to commit changes.
 * [RMarkdown]()
 
 ***
-ss1
-![ss1](Screenshots/SS1_small.png)
-ss2
-![ss2](Screenshots/SS2_small.png)
-ss3
-![ss3](Screenshots/SS3_small.png)
-ss4
-![ss4](Screenshots/SS4_small.png)
-ss5
-![ss5](Screenshots/SS5_small.png)
-ss6
-![ss6](Screenshots/SS6_small.png)
-ss7
-![ss7](Screenshots/SS7_small.png)
-ss8
-![ss8](Screenshots/SS8_small.png)
-ss9
-![ss9](Screenshots/SS9_small.png)
 ***
 * What is git? What is version control?
 * What is Github?
