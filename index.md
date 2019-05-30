@@ -1,6 +1,6 @@
 ## Using Github with R (and Rstudio)
 **Aims of this section:**   
-1) To introduce the concept of vesrion control and to name some version control software and to focus on one (git).  
+1) To introduce the concept of version control and to name some version control software and to focus on one (git).  
 2) To widen your knowledge about Github ie. what it is and why you should be using it.  
 3) How we can integrate the use of Git into Rstudio. 
 ***
@@ -35,7 +35,7 @@ It has been used to crowd source science e.g. [the European EHEC E.coli outbreak
 ![Practical session](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg/95px-Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg.png) **For steps 1-4 follow your trainer - this will be 'live-coding'.**       
 1. Log into [github](github.com) using your GH account.   
 2. Create a new repository    
-3. Create a simple text file (use Markdown if you know it) [Go to this page, click on Example.md and thenclick on raw and then cut and paste](https://github.com/bioinformatics-core-shared-training/Using_Git_with_R).  
+3. Create a simple text file (use Markdown if you know it) [Or go to this page, click & download the example.md file.](https://raw.githubusercontent.com/bioinformatics-core-shared-training/Using_Git_with_R/master/Example.md?token=ADJJD7SISXLNIPKLMVFELZC47DMDI).  
 4. Add the people on your desk and allow them edit privileges and get them to do same for you.    
 5. Edit each others files commit the files. See how GH logs and datestamps this activity.   
    
