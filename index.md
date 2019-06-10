@@ -20,7 +20,7 @@ _Example command-line git commands:_
 > git push.  
 > git pull.  
 
-The above are examples of using a gi command-line tool. There are many different tools yhat we can use with git. Thses include the command-line, the Github web interface, the Github Desktop program as well as within Rstudio. Due to time considerations, this couurse only uses the web & Rstudo Git tools. You can learn about the others by following the links in the bibliography. Regardless of th tool used we aime to demonstrate the usefulness and principle of git.    
+The above are examples of using a gi command-line tool. There are many different tools yhat we can use with git. Thses include the command-line, the Github web interface, the Github Desktop program as well as within Rstudio. Due to time considerations, this couurse only uses the web & Rstudo Git tools. You can learn about the others by following the links in the bibliography. Regardless of the tool used we aim to demonstrate the usefulness and principle of git.    
 By storing the initial and the differences of subsequent commits we can taverse this network.
 ![versioning](https://homes.cs.washington.edu/~mernst/advice/version-control-fig4.png)   This enables a member of a collaborating group to work seperately on an aspect of the files and then use git to merge the branched version back into the main trunk. git can also help the maintainer resolve conflicts e.g. where two people working on different branches make differing changes to the same file. ![Versioning](https://upload.wikimedia.org/wikipedia/commons/a/af/Revision_controlled_project_visualization-2010-24-02.svg). 
      
@@ -31,12 +31,12 @@ Github can be thought of as a web-hosting for git repositories. A place to store
 ![distributed repositories](https://homes.cs.washington.edu/~mernst/advice/version-control-fig3.png)    
 Github also enables you to create [web-pages & blogs](http://mikelove.github.io) by writing material in the [Markdown](https://guides.github.com/features/mastering-markdown/) language and HyperText Markup Language (HTML). Rstudio also uses a flavour of Markdown (called unexcitedly enough _RMarkdown_) to allow annotation of R scripts. Github can render this (_a .Rmd file_) as a web-page. In fact, this week you have been using materials that are hosted on Github repositories. It also enables you to create [wikis](https://github.com/mfernandes61/RSE_Docker_course/wiki) to document your projects and an issue tracker for people to report any problems that need fixing.    
 It has been used to crowd source science e.g. [the European EHEC E.coli outbreak](https://github.com/ehec-outbreak-crowdsourced/BGI-data-analysis/wiki/Sequence-reads)
+NB Markdown can be read by other programs e.g. [Pandoc](https://pandoc.org) to generate other Document formats including HTML, PDF, Word and Reveal.js presentations.    
 
 ## Practical 1. 
 We will use the Github web interface to create a GH repository & a document that we can edit to show how git records edits.
 [Click here](Practical1.md)
    
-***
 **Using git within Rstudio**
 ![Rstudio](Rstudio_logo.jpg)
 Rstudio can support git and subversion version control systems. We will restrict ourselves to the former.
