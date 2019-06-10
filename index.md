@@ -32,12 +32,8 @@ Github also enables you to create [web-pages & blogs](http://mikelove.github.io)
 It has been used to crowd source science e.g. [the European EHEC E.coli outbreak](https://github.com/ehec-outbreak-crowdsourced/BGI-data-analysis/wiki/Sequence-reads)
 
 ## Practical 1. 
-![Practical session](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg/95px-Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg.png) **For steps 1-4 follow your trainer - this will be 'live-coding'.**       
-1. Log into [github](github.com) using your GH account.   
-2. Create a new repository    
-3. Create a simple text file (use Markdown if you know it) [Or go to this page, click & download the example.md file.](https://raw.githubusercontent.com/bioinformatics-core-shared-training/Using_Git_with_R/master/Example.md?token=ADJJD7SISXLNIPKLMVFELZC47DMDI).  
-4. Add the people on your desk and allow them edit privileges and get them to do same for you.    
-5. Edit each others files commit the files. See how GH logs and datestamps this activity.   
+We will use the Github web interface to create a GH repository & a document that we can edit to show how git records edits.
+[Click here](Practical1.md)
    
 ***
 **Using git within Rstudio**
@@ -49,25 +45,7 @@ The git support revolves around the R Projects (how Rstudio organises your code)
 * If you have directories currently set up for version control (i.e that you were using git on already) then you just need to create an Rstudio Project for that subdirectory to trigger version control support. From the Project menu, choose 'New project' and the create a new project from an existing directory, navigate to your versioned directory and click on 'Create project'.   
 * If there is an existing remote repository e.g. on Github you can create an 'New project' from the project menu and opt to create the new project from 'Version control'. You will need to chose git and provide a link e.g. URL to the repository.    
 ## Practical 2. 
-![Practical session](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg/95px-Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg.png) **Follow trainer who will live-code an example**.      
-1. Create ssh-key (in Rstudio?).  
-![ss9](Screenshots/SS9_small.png)
-2. Configure Rstudio to use git on an existing or new Project
-![ss6](Screenshots/SS6_small.png)
-
-![ss7](Screenshots/SS7_small.png)
-
-![ss8](Screenshots/SS8_small.png)
-3. add/edit an Rmd file e.g. Example.Rmd from this courses repository.
-![ss3](Screenshots/SS3_small.png)
-
-![ss4](Screenshots/SS4_small.png)
-4. Use the git interface within Rstudio to commit changes.  
-![ss1](Screenshots/SS1_small.png)
-
-![ss2](Screenshots/SS2_small.png)
-
-![ss5](Screenshots/SS5_small.png) 
+We will now use the git interface available from within Rstudio.[Click here](Practical2.md).    
 ***
 
 ## Reference materials
