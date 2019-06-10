@@ -4,7 +4,7 @@
 2) To widen your knowledge about Github ie. what it is and why you should be using it.  
 3) How we can integrate the use of Git into Rstudio. 
 
-**Version Control - we have a problem**  *** 
+**Version Control - we have a problem**.   
 Anyone who has editted anything other than a trivial document (think a thesis here) or a collaborative document (think a paper here) will have experienced the problem of having to revert to an earlier version of the manuscript e.g. upon discovering a mistake.   
 Many ways have been evolved involving convoluted naming and numbering schemes that necessitate human involvement and knowledge to operate e.g. *Finaldoc4.5_final.Doc* ![Final from PHDComics.com](http://www.phdcomics.com/comics/archive/phd101212s.gif).  
 <ins> Enter version control </ins>.  
@@ -20,9 +20,9 @@ _Example command-line git commands:_
 > git push.  
 > git pull.  
 
-The above are examples ofusing a gi command-line tool. There are many different tools yhat we can use with git. Thses include the command-line, the Github web interface, the Github Desktop program as well as within Rstudio. Due to time considerations, this couurse only uses the web & Rstudo Git tools. You can learn about the others by following the links in the bibliography. Regardless of th tool used we aime to demonstrate the usefulness and principle of git.    
+The above are examples of using a gi command-line tool. There are many different tools yhat we can use with git. Thses include the command-line, the Github web interface, the Github Desktop program as well as within Rstudio. Due to time considerations, this couurse only uses the web & Rstudo Git tools. You can learn about the others by following the links in the bibliography. Regardless of th tool used we aime to demonstrate the usefulness and principle of git.    
 By storing the initial and the differences of subsequent commits we can taverse this network.
-![versioning](https://homes.cs.washington.edu/~mernst/advice/version-control-fig4.png)   This enables a member of a collaborating group to work seperately on an aspect of the files and the use git to merge the branched version back into the main trunk. git can also help the maintainer resolve conflicts e.g. where two people working on different branches make differing changes to the same file. ![Versioning](https://upload.wikimedia.org/wikipedia/commons/a/af/Revision_controlled_project_visualization-2010-24-02.svg). 
+![versioning](https://homes.cs.washington.edu/~mernst/advice/version-control-fig4.png)   This enables a member of a collaborating group to work seperately on an aspect of the files and then use git to merge the branched version back into the main trunk. git can also help the maintainer resolve conflicts e.g. where two people working on different branches make differing changes to the same file. ![Versioning](https://upload.wikimedia.org/wikipedia/commons/a/af/Revision_controlled_project_visualization-2010-24-02.svg). 
      
 ***
 **What is this Github of which you speak?**
@@ -50,17 +50,14 @@ We will now use the git interface available from within Rstudio.[Click here](Pra
 ***
 
 ## Reference materials
+* [Free online git book](https://git-scm.com/book/en/v2)
 * [Article on installing git support in Rstudio](http://r-bio.github.io/git-installation/).  
-* [Markdown cheatsheet]()
-* [RMarkdown]()
+* [Markdown pdf cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [RMarkdown and its many uses](https://rmarkdown.rstudio.com)
+* [Github Desktop](https://desktop.github.com)
 
 ***
-***
-* What is git? What is version control?
-* What is Github?
-* Okay, how does using git help me?
-- Creating some R code in Rstudio and publishing it to Github
-- Getting comments/wishes/bug reports from users (Issues)
+
 - Fixing code and re-publishing
 - Honey I broke my program! aka. How to recover from making a mistake
 <details>
