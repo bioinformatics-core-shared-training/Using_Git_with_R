@@ -11,6 +11,8 @@ Many ways have been evolved involving convoluted naming and numbering schemes th
 The above scenarios are commonly encountered in software development and consequently systems have been put into place to allow consistent transition between versions of documents.    
 Versioning software is similar to the incremental backup system often used on computers. In that example a full backup of the disk is initially made and thereafter periodic (smaller & quicker) backups of the changes are created. The restoration step uses the initial reference backup and 'replays' the incremental ones to re-create the last backed-up state. Commonly used version controls systems are sub-version and git (which is used in developing the Linux Operating System). ![git](git_logo.png)    
 Git stores the initial files and then the user adds (marks changes to be committed), commits (explaining what the purpose of the changes are) and then pushes the commit to the repository. Git stores all of these changes in a  network structure that can have branches off of the main trunk.    
+![XKCD git cartoon](https://imgs.xkcd.com/comics/git.png).   
+XKCD.COM humour aside, git can be driven bt text commands (but don't panic - there are other options).    
 _Example command-line git commands:_
 > git config --global user.name 'Your Name'
 > git config --global user.email 'your@email.com'
@@ -29,7 +31,8 @@ By storing the initial and the differences of subsequent commits we can taverse 
 ![Github](github_logo.png).  
 Github can be thought of as a web-hosting for git repositories. A place to store (and even to share) code and materials. The granularity of access enables you to decide if a repo is private or public and who can create and edit materials within it. It is an example of _distributed version control_
 ![distributed repositories](https://homes.cs.washington.edu/~mernst/advice/version-control-fig3.png)    
-Github also enables you to create [web-pages & blogs](http://mikelove.github.io) by writing material in the [Markdown](https://guides.github.com/features/mastering-markdown/) language and HyperText Markup Language (HTML). Rstudio also uses a flavour of Markdown (called unexcitedly enough _RMarkdown_) to allow annotation of R scripts. Github can render this (_a .Rmd file_) as a web-page. In fact, this week you have been using materials that are hosted on Github repositories. It also enables you to create [wikis](https://github.com/mfernandes61/RSE_Docker_course/wiki) to document your projects and an issue tracker for people to report any problems that need fixing.    
+Github also enables you to create [web-pages & blogs](http://mikelove.github.io) by writing material in the [Markdown](https://guides.github.com/features/mastering-markdown/) language and HyperText Markup Language (HTML). Rstudio also uses a flavour of Markdown (called unexcitedly enough _RMarkdown_) to allow annotation of R scripts. Github can render this (_a .Rmd file_) as a web-page. Hopefully, earlier this week you will have encountered Markdown and some of its usages.    
+In fact, this week you have been using materials that are hosted on Github repositories. It also enables you to create [wikis](https://github.com/mfernandes61/RSE_Docker_course/wiki) to document your projects and an issue tracker for people to report any problems that need fixing.    
 It has been used to crowd source science e.g. [the European EHEC E.coli outbreak](https://github.com/ehec-outbreak-crowdsourced/BGI-data-analysis/wiki).    
 NB Markdown can be read by other programs e.g. [Pandoc](https://pandoc.org) to generate other Document formats including HTML, PDF, Word and Reveal.js presentations.    
 
