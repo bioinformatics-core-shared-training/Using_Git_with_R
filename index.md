@@ -14,16 +14,16 @@ Git stores the initial files and then the user adds (marks changes to be committ
 ![XKCD git cartoon](https://imgs.xkcd.com/comics/git.png).   
 XKCD.COM humour aside, git can be driven bt text commands (but don't panic - there are other options).    
 _Example command-line git commands:_
-> git config --global user.name 'Your Name'
-> git config --global user.email 'your@email.com'
+> git config --global user.name 'Your Name'.  
+> git config --global user.email 'your@email.com'.  
 > git status.   
 > git add [filename(s)].  
 > git commit -m "[meaningful message]".  
 > git push.  
 > git pull.  
 
-The above are examples of using a gi command-line tool. There are many different tools yhat we can use with git. Thses include the command-line, the Github web interface, the Github Desktop program as well as within Rstudio. Due to time considerations, this couurse only uses the web & Rstudo Git tools. You can learn about the others by following the links in the bibliography. Regardless of the tool used we aim to demonstrate the usefulness and principle of git.    
-By storing the initial and the differences of subsequent commits we can taverse this network.
+The above are examples of using a git command-line tool. There are many different tools that we can use with git. These include the command-line, the Github web interface, the Github Desktop program as well as from within Rstudio. Due to time considerations, this course only uses the web & Rstudo Git tools. You can learn about the others by following the links in the bibliography. Regardless of the tool used, we aim to demonstrate the usefulness and principles of git versioning.    
+By storing the initial and the differences of subsequent commits we can traverse this network.
 ![versioning](https://homes.cs.washington.edu/~mernst/advice/version-control-fig4.png)   This enables a member of a collaborating group to work seperately on an aspect of the files and then use git to merge the branched version back into the main trunk. git can also help the maintainer resolve conflicts e.g. where two people working on different branches make differing changes to the same file. ![Versioning](https://upload.wikimedia.org/wikipedia/commons/a/af/Revision_controlled_project_visualization-2010-24-02.svg). 
      
 ***
@@ -37,7 +37,7 @@ It has been used to crowd source science e.g. [the European EHEC E.coli outbreak
 NB Markdown can be read by other programs e.g. [Pandoc](https://pandoc.org) to generate other Document formats including HTML, PDF, Word and Reveal.js presentations.    
 
 ## Practical 1. 
-We will use the Github web interface to create a GH repository & a document that we can edit to show how git records edits.
+We will now use the Github web interface to create a GH repository & a document that we can edit to show how git records edits.
 [Click here](Practical1.md)
    
 **Using git within Rstudio**
