@@ -6,7 +6,8 @@
 
 **Version Control - we have a problem**.   
 Anyone who has editted anything other than a trivial document (think a thesis here) or a collaborative document (think a paper here) will have experienced the problem of having to revert to an earlier version of the manuscript e.g. upon discovering a mistake.   
-Many ways have been evolved involving convoluted naming and numbering schemes that necessitate human involvement and knowledge to operate e.g. *Finaldoc4.5_final.Doc* ![Final from PHDComics.com](http://www.phdcomics.com/comics/archive/phd101212s.gif).  
+Many ways have been evolved involving convoluted naming and numbering schemes that necessitate human involvement and knowledge to operate e.g. *Finaldoc4.5_final.Doc* as this classic PHDComics cartoon illustrates.    
+![Final from PHDComics.com](phdcomic.gif).  
 <ins> Enter version control </ins>.  
 The above scenarios are commonly encountered in software development and consequently systems have been put into place to allow consistent transition between versions of documents.    
 Versioning software is similar to the incremental backup system often used on computers. In that example a full backup of the disk is initially made and thereafter periodic (smaller & quicker) backups of the changes are created. The restoration step uses the initial reference backup and 'replays' the incremental ones to re-create the last backed-up state. Commonly used version controls systems are sub-version and git (which is used in developing the Linux Operating System). ![git](git_logo.png)    
@@ -37,8 +38,7 @@ It has been used to crowd source science e.g. [the European EHEC E.coli outbreak
 NB Markdown can be read by other programs e.g. [Pandoc](https://pandoc.org) to generate other Document formats including HTML, PDF, Word and Reveal.js presentations.    
 
 ## Practical 1. 
-We will now use the Github web interface to create a GH repository & a document that we can edit to show how git records edits.
-[Click here](Practical1.md)
+[We will now use the Github web interface to create a GH repository & a document that we can edit to show how git records edits.](Practical1.md)
    
 **Using git within Rstudio**
 ![Rstudio](Rstudio_logo.jpg)
@@ -49,23 +49,14 @@ The git support revolves around the R Projects (how Rstudio organises your code)
 * If you have directories currently set up for version control (i.e that you were using git on already) then you just need to create an Rstudio Project for that subdirectory to trigger version control support. From the Project menu, choose 'New project' and the create a new project from an existing directory, navigate to your versioned directory and click on 'Create project'.   
 * If there is an existing remote repository e.g. on Github you can create an 'New project' from the project menu and opt to create the new project from 'Version control'. You will need to chose git and provide a link e.g. URL to the repository.    
 ## Practical 2. 
-We will now use the git interface available from within Rstudio.[Click here](Practical2.md).    
+[We will now use the git interface available from within Rstudio.](Practical2.md).    
 ***
 
 ## Reference materials
-* [Free online git book](https://git-scm.com/book/en/v2)
+* [Free online git book](https://git-scm.com/book/en/v2).  
 * [Article on installing git support in Rstudio](http://r-bio.github.io/git-installation/).  
-* [Markdown pdf cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Rstudio Support article on installing version control](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN).   
+* [Markdown pdf cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf).  
 * [RMarkdown and its many uses](https://rmarkdown.rstudio.com)
 * [Github Desktop](https://desktop.github.com)
 
-***
-
-- Fixing code and re-publishing
-- Honey I broke my program! aka. How to recover from making a mistake
-<details>
-    <summary>Other uses for Github</summary>
-  <ul>Creating group webpages and wikis</ul>
-  <ul>Collaborative documents</ul>
-  <ul>Course materials (like this one!)</ul>
-</details>
