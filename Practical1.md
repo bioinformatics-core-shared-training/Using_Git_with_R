@@ -11,7 +11,7 @@ On the top RH corner are two dropdown menus. The one with your GH avatar if clic
 ![ghw5](Screenshots/GHW5a.png)     
 When you have several repos created, Github will list them like this:   
 ![ghw6](Screenshots/GHW6a.png) 
-3. Create a simple text file (use Markdown if you know it) [Or go to this page, click & download the example.md file.](https://raw.githubusercontent.com/bioinformatics-core-shared-training/Using_Git_with_R/master/Example.md?token=ADJJD7SISXLNIPKLMVFELZC47DMDI).  
+3. Create a simple text file (use Markdown if you know it) [Or go to this page, click & download the example.md file.](Example.md).  
 To edit a new or existing file you need to click on the pen icon
 ![ghw12](Screenshots/GHW12a.png) 
 4. Add the people on your desk and allow them edit privileges and get them to do same for you.    
