@@ -50,10 +50,17 @@ The git support revolves around the R Projects (how Rstudio organises your code)
 * If there is an existing remote repository e.g. on Github you can create an 'New project' from the project menu and opt to create the new project from 'Version control'. You will need to chose git and provide a link e.g. URL to the repository.    
 ## Practical 2. 
 [We will now use the git interface available from within Rstudio.](Practical2.md).    
-***
+
+---------
+## Summary
+* Git and Github provide us with a dialogue that can explain and manage the progress of programs and documents from the initial conception to the final version.   
+Any changes made have logs of what change was made, who by and why the change was made.   
+* Rstudio can integrate the use of version control within an R Project.  
+* Using git & Github aid reproducibility and provide a means of ditributing research work including, but not limited to, software.   
 
 ## Reference materials
 * [Free online git book](https://git-scm.com/book/en/v2).  
+* [Sergio's Intro to git & Github](https://github.com/semacu/20181003_Intro_git_GitHub).  
 * [Article on installing git support in Rstudio](http://r-bio.github.io/git-installation/).  
 * [Rstudio Support article on installing version control](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN).   
 * [Markdown pdf cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf).  
