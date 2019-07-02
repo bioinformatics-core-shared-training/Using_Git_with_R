@@ -9,7 +9,7 @@
  
 ![ss8](Screenshots/SS8_small.png).  
 3. Create a .R or .Rmd file to work on. You can download/upload or cut and paste the Example.Rmd from the 'git_in_R' repository or create your own.   
-Save your file in Rstudio and then go to the Tools menu and select the version control option to bring up the Rstudio git interface (You may be asked for a password - this should be the password for the computer you are on).     
+Save your file in Rstudio and then go to the Tools menu and select the version control - 'commit' option to bring up the Rstudio git interface (You may be asked for a password - this should be the password for the computer you are on).     
 ![ss3](Screenshots/SS3_small.png)
 
 ![ss4](Screenshots/SS4_small.png)
