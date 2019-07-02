@@ -33,16 +33,17 @@ Click on the Create new file button, name it, paste the markdown code into the n
 ![ghw6_5](Screenshots/GHW6_5.png) 
 ![ghw6_6](Screenshots/GHW6_6.png) 
 5. Edit each others files and save(commit) the file changes (practice meaningful commit messages). Note that to edit an existing file you need to click on the pen icon. 
-Make ONE of the following changes in each of your neighbours example files:      
+
+Over the next 15 minutes make ONE of the following changes in each of your neighbours example files:      
 a) Add some directions on how to get to the training room.    
 b) Add yourself to the list of Trainers.   
 c) Change a Resource name in the table of web-links.   
-d) Choose a different graphics file to display e.g. instead of SS1_ choose SS2_ or SS4_.   
-
+d) The image link does not work _(as the graphics file is not in your new GH repo)_. You can fix it by either downloading the graphic from the 'Git_using_R' repo, uploading a graphic from your computers hard disk _(see below)_ or by downloading an image from the web and then editing the markdown that points to the SS1_ file.    
+_Files can be uploaded to your GH repo by clicking on the repos 'upload file button' and either dragging and dropping the file or using the file browser._   
 Explore how GH logs and datestamps this activity.  
 ![ghw9](Screenshots/GHW9a.png) 
 ![ghw10](Screenshots/GHW10a.png) 
-Git can display the differences made to the file between commits by highlighting in red & green.   
+Git can display the differences made to the file (when you use the 'commits' link) between commits by highlighting in red (deleted item) & green (added item).   
 ![ghw11](Screenshots/GHW11a.png) 
 -End of Exercise-
 Example of a 'pull' request to correct a file in a repository.    
