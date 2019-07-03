@@ -1,11 +1,11 @@
 ## Using Github with R (and Rstudio)
 **Aims of this section:**   
 1) To introduce the concept of version control and to name some version control software and to focus on one (git).  
-2) To widen your knowledge about Github ie. what it is and why you should be using it.  
+2) To widen your knowledge about Github i.e. what it is and why you should be using it.  
 3) How we can integrate the use of Git into Rstudio. 
 
 **Version Control - we have a problem**.   
-Anyone who has editted anything other than a trivial document (think a thesis here) or a collaborative document (think a paper here) will have experienced the problem of having to revert to an earlier version of the manuscript e.g. upon discovering a mistake.   
+Anyone who has edited anything other than a trivial document (think a thesis here) or a collaborative document (think a paper here) will have experienced the problem of having to revert to an earlier version of the manuscript e.g. upon discovering a mistake.   
 Many ways have been evolved involving convoluted naming and numbering schemes that necessitate human involvement and knowledge to operate e.g. *Finaldoc4.5_final.Doc* as this classic PHDComics cartoon illustrates.    
 ![Final from PHDComics.com](phdcomic.gif).  
 <ins> Enter version control </ins>.  
@@ -13,7 +13,7 @@ The above scenarios are commonly encountered in software development and consequ
 Versioning software is similar to the incremental backup system often used on computers. In that example a full backup of the disk is initially made and thereafter periodic (smaller & quicker) backups of the changes are created. The restoration step uses the initial reference backup and 'replays' the incremental ones to re-create the last backed-up state. Commonly used version controls systems are sub-version and git (which is used in developing the Linux Operating System). ![git](git_logo.png)    
 Git stores the initial files and then the user adds (marks changes to be committed), commits (explaining what the purpose of the changes are) and then pushes the commit to the repository. Git stores all of these changes in a  network structure that can have branches off of the main trunk.    
 ![XKCD git cartoon](https://imgs.xkcd.com/comics/git.png).   
-XKCD.COM humour aside, git can be driven bt text commands (but don't panic - there are other options).    
+XKCD.COM humour aside, git can be driven by text commands (but don't panic - there are other options).    
 _Example command-line git commands:_
 > git config --global user.name 'Your Name'.  
 > git config --global user.email 'your@email.com'.  
@@ -23,9 +23,9 @@ _Example command-line git commands:_
 > git push.  
 > git pull.  
 
-The above are examples of using a git command-line tool. There are many different tools that we can use with git. These include the command-line, the Github web interface, the Github Desktop program as well as from within Rstudio. Due to time considerations, this course only uses the web & Rstudo Git tools. You can learn about the others by following the links in the bibliography. Regardless of the tool used, we aim to demonstrate the usefulness and principles of git versioning.    
-By storing the initial and the differences of subsequent commits we can traverse this network.
-![versioning](https://homes.cs.washington.edu/~mernst/advice/version-control-fig4.png)   This enables a member of a collaborating group to work seperately on an aspect of the files and then use git to merge the branched version back into the main trunk. git can also help the maintainer resolve conflicts e.g. where two people working on different branches make differing changes to the same file. ![Versioning](https://upload.wikimedia.org/wikipedia/commons/a/af/Revision_controlled_project_visualization-2010-24-02.svg). 
+The above are examples of using a git command-line tool. There are many different tools that we can use with git. These include the command-line, the Github web interface, the Github Desktop program, as well as Rstudio. Due to time considerations, this course only uses the web & Rstudo Git tools. You can learn about the others by following the links in the bibliography. Regardless of the tool used, we aim to demonstrate the usefulness and principles of git versioning.    
+By storing the initial file and then the differences of each subsequent commit we can traverse this network.
+![versioning](https://homes.cs.washington.edu/~mernst/advice/version-control-fig4.png)   This enables a member of a collaborating group to work separately on an aspect of the files and then use git to merge the branched version back into the main trunk. Git can also help the maintainer resolve conflicts e.g. where two people working on different branches make differing changes to the same file. ![Versioning](https://upload.wikimedia.org/wikipedia/commons/a/af/Revision_controlled_project_visualization-2010-24-02.svg). 
      
 ***
 **What is this Github of which you speak?**
