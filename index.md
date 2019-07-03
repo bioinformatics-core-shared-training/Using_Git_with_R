@@ -61,6 +61,7 @@ Any changes made have logs of what change was made, who by and why the change wa
 ## Reference materials
 * [Free online git book](https://git-scm.com/book/en/v2).  
 * [Sergio's Intro to git & Github](https://github.com/semacu/20181003_Intro_git_GitHub).  
+* [Nature article that is strongly supportive of version control](https://www.nature.com/articles/d41586-019-02046-0?utm_source=Nature+Briefing&utm_campaign=a651c61001-briefing-dy-20190702&utm_medium=email&utm_term=0_c9dfd39373-a651c61001-43805617).   
 * [Article on installing git support in Rstudio](http://r-bio.github.io/git-installation/).  
 * [Rstudio Support article on installing version control](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN).   
 * [Markdown pdf cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf).  
