@@ -1,0 +1,24 @@
+---
+title: "Untitled"
+author: "Mark Fernandes"
+date: "05/07/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Script to do initial configuration of command-line git
+
+
+```{r}
+uname <- readline(prompt="Enter the user name that you used when setting up Github account:")
+uemail <- readline(prompt="Enter the e-mail address that you used when setting up Github account:")
+
+commline1 <- paste("git config --global user.name \"", uname, "\"", sep = "")
+commline2 <- paste("git config --global  user.email \"", uemail, "\"",sep = "")
+
+ system(commline1)
+ system(commline2)
+```
