@@ -1,11 +1,12 @@
 ## Practical 2. 
 ![Practical session](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg/95px-Cartoon_Guy_In_Deep_Thought_Using_A_Computer.svg.png) **Follow trainer who will live-code an example**.      
-1. We have to configure command-line git (only have to do once on a Computer). This is usually done from the command-line but we can do this from within R Studio. Choose Tools followed by Shell then type these two lines:    
-git config --global user.name "Your name".   
-git config --global user.email "Your e-maill adddress".   
-_The name and e-mail must be the ones you used when creating your Github account_.  
+1. First we have to configure command-line git (only have to do once on a Computer). This is usually done from the command-line but we can do this from within R Studio. Choose Tools followed by Shell then type these two lines:    
+> git config --global user.name "Your name".   
+> git config --global user.email "Your e-mail adddress".   
+_The name and e-mail must be the ones you used when creating your Github account. Rstudio uses this information to connect you to Github._.  
 From the shell you can always check these settings with this command:    
-git config --global -l.  
+> git config --global -l.  
+
 2. Create ssh-key (under Rstudio Preferences).  
 ![ss9](Screenshots/SS9_small.png)
 3. Configure Rstudio to use git on an existing or new Project.  
